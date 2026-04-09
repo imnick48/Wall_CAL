@@ -60,3 +60,28 @@ This project is structured around a single interactive client component with mod
 
 ```bash
 npm install
+```
+### 3) Start the dev server
+```bash
+npm run dev
+```
+### 3) Project structure
+```bash
+app/
+  layout.tsx
+  page.tsx
+  globals.css
+components/
+  WallCalendar.tsx
+  calendar/
+    WallCalendar.tsx
+    HeroPanel.tsx
+    EventsPanel.tsx
+    JournalModal.tsx
+    AnalogClock.tsx
+    Particles.tsx
+    constants.tsx
+    types.ts
+    utils.ts
+    CalendarStyles.ts
+```
